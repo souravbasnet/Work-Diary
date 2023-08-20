@@ -125,7 +125,7 @@ ul li {
     justify-content: space-between;
     list-style: none;
     font-family: sans-serif;
-    user-select: none;
+    /*user-select: none;*/
     padding: 15px 50px;
     margin-bottom: 3px;
     position: relative;
