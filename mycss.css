@@ -125,14 +125,22 @@ ul li {
     justify-content: space-between;
     list-style: none;
     font-family: sans-serif;
-    /*user-select: none;*/
+    user-select: none;
     padding: 15px 50px;
     margin-bottom: 3px;
     position: relative;
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
-    /* height: 40px; */
+    width: 24%;
+    height: 150px;
+    flex-direction: column;
 }
+
+#listcontent {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 
 ul li::before {
     content: "";
